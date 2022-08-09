@@ -16,4 +16,7 @@ Problem 10
 
 目的：return 的是一个 list of lists， list[0] 应该是 player 0 打得最快的词。（ + 特殊规则）
 
- 
+因为输出值表现为 [[], [], ...], 每个子集合的 index 就是 player 的 index 嘛。所以我先定义一个 list 变量 output 包含 x 个 []，用 list comp。
+之后只要用 .append() 把词加进去就可以了！
+
+所以，对于每个词而言，我得知道它进哪个 []，我想到用 min，变量为 palyer_indices，key 为 time。这样 min 输出的值就是打字最快的 player 的 index。 
