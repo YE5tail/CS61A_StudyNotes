@@ -4,6 +4,7 @@
 - Mutability
 - Syntax
 - Hw04
+- Lab05
 
 ## Summer 2022
 
