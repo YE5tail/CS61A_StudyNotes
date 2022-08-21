@@ -1,13 +1,7 @@
 ## Fall 2021
 
--[ ] Trees
-- Mutability
-- Syntax
-- Hw04
-- Lab05
-
-## Summer 2022
-
-- Disc05
-- Lab04
-
+- [x] Trees
+- [x] Mutability
+- [x] Syntax
+- [x] Hw04
+- [x] Lab05
