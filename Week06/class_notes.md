@@ -1,6 +1,6 @@
 ## Fall 2021
 
-- Trees
+-[ ] Trees
 - Mutability
 - Syntax
 - Hw04
