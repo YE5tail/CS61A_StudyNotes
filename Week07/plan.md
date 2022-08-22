@@ -1,4 +1,4 @@
-- [ ] iterator
+- [x] iterator
 - [ ] generator
 - [ ] objects
 - [ ] lab06: mutability, iterator
