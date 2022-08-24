@@ -1,5 +1,5 @@
 - [x] iterator
-- [ ] generator
-- [ ] objects
+- [x] generator
+- [x] objects
 - [x] lab06: mutability, iterator
 - [ ] hw05: iterators and generators
