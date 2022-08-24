@@ -92,7 +92,7 @@ def repeated(t, k):
             if v_list[i:i+k-1] == row_ls:
                 return elem
 
-"""我想得太复杂了，突然忘了如何把值传递下去，下面这种写法比较高效"""
+"""我想得太复杂了，突然忘了如何把值传递下去，(主要是没想到用while True来循环），下面这种写法比较高效，但不知道例外情况怎么写，算了"""
 
 def repeated_alt(t, k):
     count = 0
@@ -106,6 +106,5 @@ def repeated_alt(t, k):
         current = temp
         if count == k-1:
             return current
-
 s = iter([3, 2, 2, 2, 1, 2, 1, 4, 4, 5, 5, 5])
 repeated_alt(s, 3)
