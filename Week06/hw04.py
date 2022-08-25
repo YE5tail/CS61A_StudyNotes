@@ -252,7 +252,7 @@ def preorder(t):
     if is_leaf(t):
         return [label(t)]
     else:
-        return sum([preorder(b) for b in branches(t)], [labe(t)])
+        return sum([preorder(b) for b in branches(t)], [label(t)])
         # 运用好sum（）中的开始值，可以省去建立一个新变量
 
 def str_interval(x):
