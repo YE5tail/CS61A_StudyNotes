@@ -1,3 +1,5 @@
+# 还是要大量熟悉generator的概念
+
 def gen_perms(seq):
     """Generates all permutations of the given sequence. Each permutation is a
     list of the elements in SEQ in a different order. The permutations may be
