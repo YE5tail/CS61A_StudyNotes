@@ -1,4 +1,4 @@
-# 还是要大量熟悉generator的概念
+# 还是要大量熟悉generator的概念，其实很多还是没搞懂，什么时候需要base case， 什么时候不需要 ……
 
 def gen_perms(seq):
     """Generates all permutations of the given sequence. Each permutation is a
